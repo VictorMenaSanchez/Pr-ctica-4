@@ -6,6 +6,28 @@
     <title>Animaciones Víctor</title>
 </head>
 <body>
-    
+    <header>
+        <section class="header_left">
+            <picture>
+                <source media="(min-width:650px)" srcset="./images/alien.png">
+                <img src="./images/alien.png" alt="logo">
+            </picture>
+        </section>
+        <section class="header_rigth"></section>
+    </header>
+    <main>
+        <audio autoplay controls preload="auto"><!--El audio se cargará entero al abrir la página.-->
+            <source src="./audio/01 - Un Tipo Listo.mp3" type="audio/mp3">
+            <source src="./audio/01-Un-Tipo-Listo.ogg" type="audio/ogg">
+        </audio>
+        <div class="video_yt">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lgrK0J8Vd58?si=RiQ9b7IWXASg9OEl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <video autoplay controls preload="auto">
+                <source src="./video/VID-20170120-WA0048.mp4">
+            </video>
+        </div>
+    </main>
 </body>
 </html>
