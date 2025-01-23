@@ -1,0 +1,73 @@
+:root{
+    font-family: Bangers;
+}
+
+*{
+    margin:0;
+
+}
+
+body{
+    background-color: rgb(79, 158, 79);
+}
+
+header{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.header_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.audio_container{
+    width: 150px;
+    overflow: hidden;
+}
+
+audio{
+    width: 100%;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.video_yt{
+
+}
+
+.video{
+    width: 560px; 
+    height: 315px;
+animation: kickflip 5s infinite;
+}
+
+h2{
+    color: rgb(226, 240, 226);
+font-weight: 100;
+font-size: 1.5rem;
+margin-top: .75rem;
+}
+
+@keyframes kickflip {
+    0%{
+        transform: rotateX(0deg);
+    }
+    50%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
